@@ -1,13 +1,13 @@
 package main
 
-// import "fmt"
+import "fmt"
 
-// func main() {
-// 	var name string = "Dandy"
+func main() {
+	var name string = "Dandy"
 
-// 	if name == "Dandy" {
-// 		fmt.Println(true)
-// 	} else {
-// 		fmt.Println(false)
-// 	}
-// }
+	if name == "Dandy" {
+		fmt.Println(true)
+	} else {
+		fmt.Println(false)
+	}
+}

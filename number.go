@@ -1,8 +1,8 @@
 package main
 
-// import "fmt"
+import "fmt"
 
-// func main() {
-// 	fmt.Println("Satu =", 1)
-// 	fmt.Println("Dua koma lima =", 2.5)
-// }
+func main() {
+	fmt.Println("Satu =", 1)
+	fmt.Println("Dua koma lima =", 2.5)
+}

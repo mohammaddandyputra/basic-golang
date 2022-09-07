@@ -1,13 +1,13 @@
 package main
 
-// import "fmt"
+import "fmt"
 
-// //Returning multiple values
-// func multipleValue() (string, string, string) {
-// 	return "Mohammad", "Dandy", "Putra"
-// }
+//Returning multiple values
+func multipleValue() (string, string, string) {
+	return "Mohammad", "Dandy", "Putra"
+}
 
-// func main() {
-// 	firstname, _, lastname := multipleValue()
-// 	fmt.Println(firstname, lastname)
-// }
+func main() {
+	firstname, _, lastname := multipleValue()
+	fmt.Println(firstname, lastname)
+}

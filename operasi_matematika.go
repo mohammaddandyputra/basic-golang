@@ -1,24 +1,24 @@
 package main
 
-// import "fmt"
+import "fmt"
 
-// func main() {
-// 	var (
-// 		panjang = 10
-// 		lebar   = 5
-// 		luas    = panjang * lebar
-// 	)
-// 	fmt.Println(luas)
+func main() {
+	var (
+		panjang = 10
+		lebar   = 5
+		luas    = panjang * lebar
+	)
+	fmt.Println(luas)
 
-// 	//Modulo
-// 	modulo := luas % 4
-// 	fmt.Println(modulo)
+	//Modulo
+	modulo := luas % 4
+	fmt.Println(modulo)
 
-// 	i := 5
-// 	i += 5 // i = i + 5
-// 	fmt.Println(i)
+	i := 5
+	i += 5 // i = i + 5
+	fmt.Println(i)
 
-// 	kondisi := true
-// 	fmt.Println(!kondisi) //Negasi atau kebalikan dari nilai biasanya tipe boolean
+	kondisi := true
+	fmt.Println(!kondisi) //Negasi atau kebalikan dari nilai biasanya tipe boolean
 
-// }
+}

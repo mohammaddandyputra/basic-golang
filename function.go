@@ -1,23 +1,25 @@
 package main
 
-// //Function tanpa parameter
-// func sayHello() {
-// 	fmt.Println("Hello")
-// }
+import "fmt"
 
-// //Function dengan parameter
-// func sayHelloTo(firstname string, lastname string) {
-// 	fmt.Println("Hello", firstname, lastname)
-// }
+//Function tanpa parameter
+func sayHello() {
+	fmt.Println("Hello")
+}
 
-// //Function dengan return value
-// func sayHelloToPerson(firstname string) string {
-// 	return "Hello " + firstname
-// }
+//Function dengan parameter
+func sayHelloTo(firstname string, lastname string) {
+	fmt.Println("Hello", firstname, lastname)
+}
 
-// func main() {
-// sayHello()
-// sayHelloTo("Dandy", "Putra")
+//Function dengan return value
+func sayHelloToPerson(firstname string) string {
+	return "Hello " + firstname
+}
 
-// hello := sayHelloToPerson("dandy")
-// }
+func main() {
+	sayHello()
+	sayHelloTo("Dandy", "Putra")
+
+	hello := sayHelloToPerson("dandy")
+}

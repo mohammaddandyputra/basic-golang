@@ -1,13 +1,13 @@
 package main
 
-// import "fmt"
+import "fmt"
 
-// func main() {
-// 	var values = []string{
-// 		"mohammad", "dandy", "putra",
-// 	}
-// 	fmt.Println(values[0])
+func main() {
+	var values = []string{
+		"mohammad", "dandy", "putra",
+	}
+	fmt.Println(values[0])
 
-// 	//Menghitung total jumlah array pada variable
-// 	fmt.Println(len(values))
-// }
+	//Menghitung total jumlah array pada variable
+	fmt.Println(len(values))
+}

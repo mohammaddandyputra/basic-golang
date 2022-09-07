@@ -1,17 +1,17 @@
 package main
 
-// import "fmt"
+import "fmt"
 
-// //Named return values
-// func getFullName() (firstname, middlename, lastname string) {
-// 	firstname = "Mohammad"
-// 	middlename = "Dandy"
-// 	lastname = "Putra"
+//Named return values
+func getFullName() (firstname, middlename, lastname string) {
+	firstname = "Mohammad"
+	middlename = "Dandy"
+	lastname = "Putra"
 
-// 	return
-// }
+	return
+}
 
-// func main() {
-// 	a, b, c := getFullName()
-// 	fmt.Println(a, b, c)
-// }
+func main() {
+	a, b, c := getFullName()
+	fmt.Println(a, b, c)
+}
